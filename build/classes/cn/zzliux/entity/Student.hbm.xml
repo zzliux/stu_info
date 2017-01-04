@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.zzliux.entity.Student" table="student" catalog="stu_manage">
+		<id name="id" type="java.lang.Integer">
+			<column name="id" />
+			<generator class="native" />
+		</id>
+		<property name="name" type="java.lang.String">
+			<column name="name" />
+		</property>
+		<property name="sex" type="java.lang.Integer">
+			<column name="sex" />
+		</property>
+		<property name="age" type="java.lang.Integer">
+			<column name="age" />
+		</property>
+		<property name="className" type="java.lang.String">
+			<column name="class_name" />
+		</property>
+		<property name="phoneNumber" type="java.lang.String">
+			<column name="phone_number" />
+		</property>
+		<property name="location" type="java.lang.String">
+			<column name="location" />
+		</property>
+	</class>
+</hibernate-mapping>
