@@ -1,8 +1,9 @@
 ### 运行前要做的事
 - 将项目根目录下的stu_manage.sql导入至MySQL
 - 配置好/src/hibernate.cfg.xml相关MySQL的用户和密码
+- 管理员账号密码都是zzliux
 
-### 说明
+### url说明
 - /stu_info/index.html 首页，会根据登录状态判断跳转直管理员后台还是学生后台或者是登录页
 - /stu_info/login.html 管理员/学生登录页
 - /stu_info/register.html 学生注册
